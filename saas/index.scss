@@ -1,42 +1,16 @@
 
-  header {
-    background: {
-      image:
-        radial-gradient(rgba(red, 0.3), rgba(red, 0) 40vw),
-        radial-gradient(rgba(green, 0.3), rgba(green, 0) 40vw),
-        radial-gradient(rgba(blue, 0.3), rgba(blue, 0) 40vw),
-        radial-gradient(rgba(yellow, 0.3), rgba(yellow, 0) 40vw),
-        radial-gradient(rgba(red, 0.3), rgba(red, 0) 40vw);
-      position:
-        -40vw 14rem,
-        50% 10rem,
-        60vw 14rem,
-        -10vw calc(14rem + 20vw),
-        30vw calc(14rem + 20vw);
-      size: 80vw 80vw;
-      repeat: no-repeat;
-    }
-
-    padding: 1rem;
-    font: {
-      family:
-        Avenir,
-        sans-serif;
-      size: 112.5%;
-    }
-    color: #124;
-    
-  }
-  
-  nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    padding: 1.5rem 1rem;
-    background-color: white;
-    border-top: 4px solid mix(purple, white);
-  }
+body {
+  padding: 1rem;
+  font-family: Avenir,
+ sans-serif;
+  font-size: 112.5%;
+  color: #124;
+  background-image: radial-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0) 40vw), radial-gradient(rgba(0, 128, 0, 0.3), rgba(0, 128, 0, 0) 40vw), radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0) 40vw), radial-gradient(rgba(255, 255, 0, 0.3), rgba(255, 255, 0, 0) 40vw), radial-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0) 40vw);
+  background-position: -40vw 14rem, 50% 10rem, 60vw 14rem, -10vw calc(14rem + 20vw), 30vw calc(14rem + 20vw);
+  background-size: 80vw 80vw;
+  background-repeat: no-repeat;
+}
+ 
   
   header {
     max-width: 600px;
@@ -54,15 +28,7 @@
       margin-top: 1rem;
     }
   }
-  
-  main {
-    max-width: 800px;
-    margin: {
-      right: auto;
-      left: auto;
-    }
-  }
-  
+ 
 
   
 // btn
@@ -154,3 +120,27 @@
 .accordion .highlight i {
 	transform: rotate(180deg);
 }
+
+h2 {
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 25px 0 50px;
+}
+
+h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #ffdc12;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}
+
+
