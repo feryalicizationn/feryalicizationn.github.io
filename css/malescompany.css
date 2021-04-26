@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=malescompany.css.map */
+.home {
+  background-image: url("malescompany/img/banner.jpg");
+  background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    background-image: url("malescompany/img/banner.jpg");
+    background-position: center;
+  }
+}
+/*# sourceMappingURL=malescompany.css.map */
