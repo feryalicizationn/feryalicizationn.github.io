@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AACA,AAAA,KAAK,CAAC;EACF,gBAAgB,EAAE,kCAAkC;EACpD,mBAAmB,EAAE,MAAM;CAC9B;;AAED,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACpC,AAAA,KAAK,CAAC;IACF,gBAAgB,EAAE,kCAAkC;IACpD,mBAAmB,EAAE,MAAM;GAC9B",
+    "mappings": "",
     "sources": [
         "../malescompany/malescompany.scss"
     ],
