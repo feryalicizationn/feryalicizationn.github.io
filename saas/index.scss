@@ -36,16 +36,12 @@ body {
   button {background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%)}
 
   button {
-    margin: 10px;
-    padding: 15px 45px;
     text-align: center;
-    text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
-    display: block;
   }
  
   button:hover {
@@ -63,6 +59,10 @@ body {
 
 
 // FAQ
+
+.faq {
+  color: #124;
+}
 .accordion .card {
 	background: none;
 	border: none;
@@ -78,11 +78,11 @@ body {
 	margin-top: 10px;
 }
 .accordion .card-header .btn {
-	color: #2f2f31;
-	font-size: 1.04rem;
+	color: #124;
+
 	text-align: left;
 	position: relative;
-	font-weight: 500;
+
 	padding-left: 2rem;
 }
 .accordion .card-header i {
@@ -96,7 +96,7 @@ body {
 	color: #ff8300;
 }
 .accordion .card-body {
-	color: #324353;
+	color: #124;
 	padding: 0.5rem 3rem;
 }
 .page-title {
@@ -122,7 +122,7 @@ body {
 }
 
 h2 {
-  color: #333;
+  color: #124;
   text-align: center;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
@@ -143,4 +143,11 @@ h2::after {
   bottom: -10px;
 }
 
-
+.footer {
+  a {
+    color: #124;
+  }
+  .copyright {
+    color: #124;
+  }
+}
