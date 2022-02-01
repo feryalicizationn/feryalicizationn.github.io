@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,SAAS,CAAA;EACL,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "pasifamal.scss"
+    ],
+    "names": [],
+    "file": "pasifamal.css"
+}
